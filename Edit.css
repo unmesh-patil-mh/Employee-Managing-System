@@ -1,0 +1,100 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Main container with blur effect */
+.mainbox {
+    background: rgba(255, 255, 255, 0.6); /* semi-transparent */
+    padding: 20px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px); /* glassy pop-out effect */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* depth */
+}
+
+tr td {
+    padding: 7px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+td {
+    padding: 8px;
+}
+
+td input {
+    width: 200px;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+td select {
+    width: 210px;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: all 0.5s ease;
+}
+
+td select:hover {
+    border-color: #007bff;
+    background-color: #f0f8ff;
+}
+
+td input:focus,
+td select:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.save-btn {
+    padding: 4px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: all 0.5s ease-in;
+}
+
+.save-btn:hover {
+    border-color: #007bff;
+    background-color: #f0f8ff;
+}
+
+.view-btn a {
+    border: 1px solid #ccc;
+    color: black;
+    padding: 4px;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: all 0.3s ease;
+}
+
+.view-btn a:hover {
+    border-color: #007bff;
+    background-color: #f0f8ff;
+}
